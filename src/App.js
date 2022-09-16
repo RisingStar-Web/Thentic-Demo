@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Create from "./pages/Create";
+import Nfts from "./pages/Nfts";
+import Home from "./pages/Home";
+import Contracts from "./pages/Contracts";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-[#14171c] h-screen">
+      <Header />
+      <div>
+        <Routes>
+          <Route path="/create" element={<Create />}></Route>
+          <Route path="/contracts" element={<Contracts />}></Route>
+          <Route path="/nfts" element={<Nfts />}></Route>
+          <Route path="/" element={<Home />}></Route>
+        </Routes>
+      </div>
     </div>
   );
 }

@@ -1,3 +1,26 @@
+# Solution
+- Create NFT Contract
+- Show NFT Contracts
+- Approve NFT Contract
+- Mint NFT Token
+- Show NFT Tokens
+- Approve NFT Token
+
+# Deployed
+
+[https://thentic-demo.netlify.app](https://thentic-demo.netlify.app)
+
+# Tech Skills
+
+- React
+- TailwindCSS
+- JavaScript
+- Axios
+
+# Test
+
+Test with Ropsten Network
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
